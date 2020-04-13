@@ -5,7 +5,7 @@
 layout: index
 ---
 
-Gemfile update
+_config.ymle update
 
 Chapters [here](chapters/chapters.html)
 
