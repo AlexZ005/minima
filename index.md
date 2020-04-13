@@ -5,6 +5,8 @@
 layout: index
 ---
 
+Gemfile update
+
 Chapters [here](chapters/chapters.html)
 
 Subsribe via [RSS](feed.xml)
