@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+  <head>
+  <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}" />
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
+  </head>
+  <body>
+		<div class="wrapper">
+
+
+			{% include sidebar.html %}
+
+<main class="content">
+				<div class="inner">
+
+	<p>{% include breadcrumbs.html %}</p>
+	<p>{% include toc.html html=content %}</p>
+	{{ content | newline_to_br }}
+{% include comments.html element=".post-content" github_account="AlexZ005/alexz005.github.io" require_cookie_consent="true" %}
+
+</div>
+</main>
+</div>
+		{% include scripts.html %}
+
+<script src="/js/jquery.min.js"></script>
+  </body>
+</html>

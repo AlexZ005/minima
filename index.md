@@ -5,6 +5,6 @@
 layout: index
 ---
 
-Chapters link:chapters/chapters.html[chap]
+Chapters [here](chapters/chapters.html)
 
-Subsribe via link:feed.xml[RSS]
+Subsribe via [RSS](feed.xml)

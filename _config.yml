@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: AlexZ005
+title: MyNotes
 email: alexz005.info@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   This personal website main purpose is to share things, books, thoughts
@@ -29,13 +29,11 @@ twitter_username: AlexZ005
 github_username:  AlexZ005
 
 # Build settings
-#theme: minima
+theme: minima
 plugins:
   - jekyll-feed
   - jekyll-asciidoc
-  - jekyll-remote-theme
-
-remote_theme: alexz005/jekyll-notes
+  - jekyll-seo-tag
 
 asciidoc: {}
 asciidoctor:

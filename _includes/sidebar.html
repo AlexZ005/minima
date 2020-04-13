@@ -1,0 +1,24 @@
+
+<div class="sidebar">
+<div class="sidebar-main">
+
+<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names..">
+
+
+  <h1>Chapters</h1>
+
+<button onclick="CollapsibleLists.apply()">Collapse/Expand</button>
+
+  <ul class="posts" id="menu">
+    {% for chapter in site.chapters %}
+	{% if chapter.path != "_chapters/index.html" %}
+        {{ chapter.path }}
+	{% endif %}
+    {% endfor %}
+  </ul>
+
+<div id="renderList">
+</div>
+
+</div>
+</div>

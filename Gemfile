@@ -9,7 +9,7 @@ source "https://rubygems.org"
 # Happy Jekylling!
 gem "jekyll", "~> 4.0.0"
 gem "coderay", "~> 1.1.0"
-
+gem 'jekyll-seo-tag'
 
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
 gem "minima", "~> 2.5"
@@ -20,7 +20,6 @@ gem "minima", "~> 2.5"
 group :jekyll_plugins do
   gem 'jekyll-asciidoc', '~> 2.1.1'
   gem "jekyll-feed", "~> 0.12"
-  gem "jekyll-remote-theme"
 end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
